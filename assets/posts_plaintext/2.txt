@@ -1,0 +1,13 @@
+The next few posts on this blog are all based around different peoples achievements so I thought that, to gain some perspective, I would start with my biggest programming failure: <b>The World's Worst Social Network </b>.
+A few months back I had finally got Google's firebase database system working using Javascript and decided to create a fun proof-of-concept to share at school. I ended up with a hastily-made 'social network' web app that I dubbed 'UTC Anarchy'. It consisted of two text fields, a button, and a table. In retrospect, Front-end design, far too much coffee, and 3AM programming don't seem to mix too well as I'm sure you will agree looking at the default font / white background website.
+The horrific front-end was not the entirety of failure, however, that was when I finally published the site and shared it to 50 or so fellow students over email. Within literally minutes, some students discovered that I had neglected to sanitize the data inputs and that HTML could be injected by anyone.
+After this discovery, the first few posts were fairly innocent with people posting rainbow themed memes in comic sans. This quickly devolved into chaos, however, as the HTML img tag was discovered as working. A fellow comsci student (*cough* Reilly *cough*) spammed the site with thousands of, not so flattering, pictures of me.
+All throughout this, my decision of using client-side post length limiting was confirmed as being terrible as the poor table containing the posts was stretched to thousands of pixels wide, making all of the posts impossible to see without LOTS of scrolling. By only an hour in, the site's storage was full of 4k resolution memes and, 'school appropriate' language. 
+<br>
+<img src="../images/post_images/2/screenshot.png"></img>
+One thing is for sure, any Google employee looking through the database would be thoroughly confused.
+So what lessons have I learnt? Don't ever trust the end user, they will surpass any expectations you may have surrounding how the site is 'meant to be used'.
+Overall, I think this whole experience can be summed up well by this GIF from The Godfather:
+<br>
+<img src="../images/post_images/2/godfather_gif.gif"</img>
+Cheers, Ben.
