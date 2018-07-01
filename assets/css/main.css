@@ -4136,8 +4136,16 @@
 		padding-left: 5%;
 		width: 50%;
 	}
+	
 	.comments {
 		padding-left: 10%;
+	}
+
+	.user_content_input {
+		width: 50%;
+		text-align: center;
+		margin-left: auto ;
+		margin-right: auto ;
 	}
 	#footer {
 		background-color: #1E2832;
