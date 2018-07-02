@@ -1,0 +1,2 @@
+1:
+    Have the front page load post info dynamically from the info.json and their thumnail in their ID folder.
