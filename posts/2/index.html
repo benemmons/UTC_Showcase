@@ -25,7 +25,9 @@
 	<header id="header">
 		<h1>
 			<a href="http://utcshowcase.online">UTC Showcase</a>
+
 		</h1>
+
 	</header>
 
 	<!-- Main -->
@@ -34,68 +36,11 @@
 
 			<header class="major special">
 				<img src="../../images/logo.png" width="50px" height="50px"></img>
-				<h2>The World's Worst Social Network</h2>
-				<p>My experience about trusting my fellow students and the horrifically hilarious outcome.</p>
-				<h4>By Ben
-				</h4>
+				<h2 id="post_title"></h2>
+				<p id="post_description"></p>
+				<h4 id="post_author"></h4>
 			</header>
-
-			<p>
-				The next few posts on this blog are all based around different peoples achievements so I thought that, to gain some perspective,
-				I would start with my biggest programming failure:
-			</p>
-			<p>
-				<b>The World's Worst Social Network </b>
-			</p>
-			<p>
-				A few months back I had finally got Google's firebase database system working using Javascript and decided to create a fun
-				proof-of-concept to share at school. I ended up with a hastily-made 'social network' web app that I dubbed 'UTC Anarchy'.
-				It consisted of two text fields, a button, and a table. In restrospect, front-end design, far too much coffee, and 3AM
-				programming don't seem to mix too well as I'm sure you will agree looking at the default font / white background website.
-			</p>
-			<p>
-				The horrific front-end was not the entirety of failure, however, that was when I finally published the site and shared it
-				to 50 or so fellow students over email. Within literally minutes, some students discovered that I had neglected to sanitize
-				the data inputs and that HTML could be injected by anyone.
-			</p>
-			<p>
-				After this discovery, the first few posts were fairly innocent with people posting rainbow themed memes in comic sans. This
-				quickly devolved into chaos, however, as the HTML image tag was discovered as working. A fellow comsci student (*cough*
-				Reilly *cough*) spammed the site with thousands of, not so flattering, pictures of me.
-			</p>
-			<p>
-				All throughout this, my decision of using client-side post length limiting was confirmed as being terrible as the poor table
-				containing the posts was stretched to thousands of pixels wide, making all of the posts impossible to see without LOTS
-				of scrolling. By only an hour in, the site's storage was full of 4k resolution memes and, 'school appropriate' language.
-			</p>
-			<center>
-				<div class="box_picture">
-					<a class="image fit">
-						<img src="http://utcshowcase.online/images/post_images/2/screenshot.png"></img>
-					</a>
-					<p>A sample of the
-						<i>quality</i> posts</p>
-				</div>
-			</center>
-			<p>
-				One thing is for sure, any Google employee looking through the database would be thoroughly confused.
-			</p>
-			<p>
-				So what lessons have I learnt? Don't ever trust the end user, they will surpass any expectations you may have surrounding
-				how the site is 'meant to be used'.
-			</p>
-			<p>
-				Overall, I think this whole experience can be summed up well by this GIF from The Godfather:
-			</p>
-			<a class="image fit">
-				<img src="http://utcshowcase.online/images/post_images/2/godfather_gif.gif"></img>
-			</a>
-
-			<p>
-				Cheers,
-				<br>Ben.
-			</p>
-		</div>
+		<div id="post_content"></div>
 	</section>
 
 
@@ -122,6 +67,7 @@
 	<script src="../../assets/js/util.js"></script>
 	<!--[if lte I../E 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="../../assets/js/main.js"></script>
+	<script src="load_post.js"></script>
 
 </body>
 
