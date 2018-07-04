@@ -13,4 +13,4 @@ $.getJSON("info.json", function( data) {
 $.get( "article.html", function( data ) {
     post_content = data;
     $("#post_content").html(post_content);
-  });
+});
