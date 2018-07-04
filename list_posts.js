@@ -17,7 +17,7 @@ $.get("article_boilerplate.html", function(raw_page)
                 formatted_page = formatted_page                   
                                     .replace("TITLE", post_data["TITLE"])
                                     .replace("DESCRIPTION", post_data["DESCRIPTION"])
-                $(".inner").append(formatted_page);
+                $(".inner").prepend(formatted_page);
             }
         });
             
