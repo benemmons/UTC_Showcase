@@ -1,4 +1,4 @@
-$.getJSON("info.json", function( data) {
+$.getJSON("info.json", function (data) {
     data = data["POST"]
     post_author = data["AUTHOR"]
     post_description = data["DESCRIPTION"]
@@ -10,7 +10,7 @@ $.getJSON("info.json", function( data) {
 
 })
 
-$.get( "article.html", function( data ) {
+$.get("content/article.html", function (data) {
     post_content = data;
     $("#post_content").html(post_content);
-  });
+});
