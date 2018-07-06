@@ -10,7 +10,4 @@ $.getJSON("content/info.json", function (data) {
 
 })
 
-$.get("content/article.html", function (data) {
-    post_content = data;
-    $("#post_content").html(post_content);
-});
+$("#post_content").load("content/article.html");

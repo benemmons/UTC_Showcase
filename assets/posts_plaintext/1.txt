@@ -1,8 +1,0 @@
-Hi, I'm Ben.
-I'm a year 10 student at UTC Reading who's currently studying computer science. I always find myself lacking an elegant solution to spread the word about the projects I have made to other people, usually having to resort to word-of-mouth or annoying emails. I also find that, when describing these projects, a lot of detail is lost as it is not appropriate for, say a quick email.
-This is where the blog comes in, having a centralised website for people to post their projects in as much detail as they want, allows for other students can see their accomplishments and provide relevent (hopefully helpful!) feedback. It also allows for students to show employers or other interested people their project, without having to rewrite all of the information surrounding it.
-I'm open for the blog to accomodate all sorts of content, from programming to music and, to any students reading this, feel free to shoot me an email at <a href="mailto:"benjamin.emmons@utcreading.org.uk">benjamin.emmons@utcreading.org.uk</a> and we can talk about getting a post set up.
-I hope you all enjoy the site.
-
-Cheers, 
-Ben.
