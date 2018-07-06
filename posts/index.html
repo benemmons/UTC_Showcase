@@ -16,10 +16,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.0/moment.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.1.0/js/md5.js"></script>
-	<script src="../assets/js/comment_system.js"></script>
-	<script type="text/javascript" src="../assets/js/get_params.js"></script>
-	<script type="text/javascript" src="../assets/js/load_post.js"></script>
-
 </head>
 
 <body>
@@ -39,37 +35,26 @@
 
 			<header class="major special">
 				<img src="../images/logo.png" width="50px" height="50px"></img>
-				<h2 id="post_title"></h2>
-				<p id="post_description"></p>
-				<h4 id="post_author"></h4>
+				<h2 id="post_title">Go To A Post</h2>
+				<p id="post_description">Insert the ID of the post you want to see to go to that post.</p>
+				<h4 id="post_author">Ben</h4>
 			</header>
-			<div id="post_content"></div>
-	</section>
-
-
-	<section>
-		<div class="comment_form">
-			<h3>Leave a comment</h3>
-
-			<form id="comment">
-
-				<label for="name">Name</label>
-				<input type="text" id="name">
-				<label for="message">Message</label>
-				<textarea id="message"></textarea>
+			<div id="post_content" align="center">
+				<input type="number" id="destination_post_ID"></input>
 				<br>
-				<input type="submit" value="Post Comment">
-			</form>
-
-			<div class="comments"></div>
-		</div>
+				<br>
+				<a href="#" id="desination_post_button" class="button special">Go To Post</a>
+			</div>
 	</section>
+
+
 	<!-- Scripts -->
 	<script src="../assets/js/jquery.min.js"></script>
 	<script src="../assets/js/skel.min.js"></script>
 	<script src="../assets/js/util.js"></script>
 	<!--[if lte I../E 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="../assets/js/main.js"></script>
+	<script src="../assets/js/goto_post.js"></script>
 
 </body>
 
