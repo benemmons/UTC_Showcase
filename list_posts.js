@@ -2,7 +2,7 @@ function sort(order) {
     $.get("article_boilerplate.html", function (raw_page) {
         $(".inner").html("");
 
-        for (i = 0; i < 3; i++) {
+        for (i = 0; i < 10; i++) {
             formatted_page = raw_page
                 .replace("SOURCE", ("posts/" + i + "/content/thumnail.jpg"))
                 .replace("ID", i)
@@ -23,8 +23,7 @@ function sort(order) {
                     if (order == "Oldest") {
                         $(".inner").append(formatted_page);
                     };
-
-                }
+                },
             });
 
         }
